@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emir CANBAZ — Portfolio</title>
+  <meta
+          name="description"
+          content="Emir Canbaz'ın yazılım projelerini, teknik çalışmalarını ve iletişim bilgilerini içeren kişisel portfolyo sitesi."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#main" class="brand" data-tr="Emir CANBAZ" data-en="Emir CANBAZ">Emir CANBAZ</a>
+
+    <div class="topbar-right">
+      <nav class="nav" aria-label="Ana menü">
+        <a href="#work" data-tr="İş" data-en="Work">İş</a>
+        <a href="#about" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+        <a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a>
+      </nav>
+
+      <div class="controls">
+        <div class="lang-switch" aria-label="Dil seçimi">
+          <button type="button" class="control-btn lang-btn active" data-lang="tr">TR</button>
+          <button type="button" class="control-btn lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <button
+                type="button"
+                class="control-btn theme-toggle"
+                id="themeToggle"
+                aria-label="Tema değiştir"
+                title="Tema değiştir"
+        >
+          <span class="theme-toggle-text" data-tr="Koyu" data-en="Dark">Koyu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container">
+  <section class="hero-section">
+    <div class="hero-copy">
+      <p class="eyebrow" data-tr="Portfolio" data-en="Portfolio">Portfolio</p>
+
+      <h1 class="hero-title" data-tr="Emir CANBAZ" data-en="Emir CANBAZ">Emir CANBAZ</h1>
+
+      <p
+              class="hero-role"
+              data-tr="Bilgisayar Mühendisliği Öğrencisi • Backend ve Sistem Geliştirici"
+              data-en="Computer Engineering Student • Backend & Systems Developer"
+      >
+        Bilgisayar Mühendisliği Öğrencisi • Backend ve Sistem Geliştirici
+      </p>
+
+      <p
+              class="hero-meta"
+              data-tr="Rust • Go • Backend • Sistem Programlama"
+              data-en="Rust • Go • Backend • Systems Programming"
+      >
+        Rust • Go • Backend • Sistem Programlama
+      </p>
+
+      <p
+              class="hero-text"
+              data-tr="Bilgisayar mühendisliği öğrencisiyim ve özellikle sistem programlama, backend geliştirme ve düşük seviyeli yazılım alanlarıyla ilgileniyorum. Bu site; geliştirdiğim projeleri ve teknik çalışmalarımı sade ve minimal bir tasarım ile sunmak amacıyla oluşturuldu."
+              data-en="I am a computer engineering student with a strong interest in systems programming, backend development, and low-level software. This website was built to present my projects and technical work through a clean, minimal, and easy-to-scan design."
+      >
+        Bilgisayar mühendisliği öğrencisiyim ve özellikle sistem programlama,
+        backend geliştirme ve düşük seviyeli yazılım alanlarıyla ilgileniyorum.
+        Bu site; geliştirdiğim projeleri ve teknik çalışmalarımı sade ve minimal
+        bir tasarım ile sunmak amacıyla oluşturuldu.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#work" data-tr="Projeleri Gör" data-en="View Projects">Projeleri Gör</a>
+        <a class="btn btn-secondary" href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a>
+      </div>
+
+      <div class="hero-links">
+        <a href="https://github.com/Emoviro" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/emir-canbaz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow" data-tr="Öne Çıkanlar" data-en="Highlights">Öne Çıkanlar</p>
+        <h2 class="section-title" data-tr="Seçili projeler" data-en="Selected projects">Seçili projeler</h2>
+      </div>
+
+      <p
+              class="section-note"
+              data-tr="Öne çıkan çalışmalarımın kısa bir seçkisi.<br>Tüm projelerime GitHub üzerinden ulaşabilirsiniz."
+              data-en="A short selection of my highlighted work.<br>You can find more of my projects on GitHub."
+      >
+        Öne çıkan çalışmalarımın kısa bir seçkisi.<br>
+        Tüm projelerime GitHub üzerinden ulaşabilirsiniz.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+      <a class="project-card" href="https://github.com/ArsenAlighieri/akemir_os" target="_blank" rel="noopener noreferrer">
+        <div class="project-top">
+          <h3 class="project-title">AkemirOS</h3>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </div>
+
+        <p
+                class="project-text"
+                data-tr="Rust ile yazılmış, x86-64 mimarisi için geliştirdiğim deneysel bir işletim sistemi. Temel bellek yönetimi, dosya sistemi ve multitasking özelliklerini içerir."
+                data-en="An experimental operating system written in Rust and developed for the x86-64 architecture. It includes core memory management, a basic file system, and multitasking features."
+        >
+          Rust ile yazılmış, x86-64 mimarisi için geliştirdiğim deneysel bir işletim sistemi.
+          Temel bellek yönetimi, dosya sistemi ve multitasking özelliklerini içerir.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Rust</span>
+          <span class="tag">x86-64</span>
+          <span class="tag" data-tr="İşletim Sistemi" data-en="Operating System">İşletim Sistemi</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://github.com/ArsenAlighieri/SmartyShop" target="_blank" rel="noopener noreferrer">
+        <div class="project-top">
+          <h3 class="project-title">SmartyShop</h3>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </div>
+
+        <p
+                class="project-text"
+                data-tr="Go backend ve React frontend ile geliştirilmiş bir alışveriş asistanı web uygulaması. Sesli komutlar ve yapay zeka destekli öneriler ile kullanıcıların ürün arama, karşılaştırma ve fiyat-performans analizi yapmasını sağlar."
+                data-en="A shopping assistant web application built with a Go backend and a React frontend. It helps users search for products, compare options, and perform price-performance analysis through voice commands and AI-powered recommendations."
+        >
+          Go backend ve React frontend ile geliştirilmiş bir alışveriş asistanı web uygulaması.
+          Sesli komutlar ve yapay zeka destekli öneriler ile kullanıcıların ürün arama,
+          karşılaştırma ve fiyat-performans analizi yapmasını sağlar.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Go</span>
+          <span class="tag">React</span>
+          <span class="tag">AI</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://github.com/ArsenAlighieri/VetPanel" target="_blank" rel="noopener noreferrer">
+        <div class="project-top">
+          <h3 class="project-title">VetPanel</h3>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </div>
+
+        <p
+                class="project-text"
+                data-tr="Veteriner kliniklerinde hasta kayıtları ve tedavi süreçlerini yönetmek için bir yönetim paneli geliştirdim. C#, SQL ve masaüstü uygulama mimarisi kullanarak veri tabanı tabanlı bir sistem tasarladım."
+                data-en="I developed a management panel for handling patient records and treatment processes in veterinary clinics. It was designed as a database-driven system using C#, SQL, and desktop application architecture."
+        >
+          Veteriner kliniklerinde hasta kayıtları ve tedavi süreçlerini yönetmek için bir yönetim paneli geliştirdim.
+          C#, SQL ve masaüstü uygulama mimarisi kullanarak veri tabanı tabanlı bir sistem tasarladım.
+        </p>
+
+        <div class="tags">
+          <span class="tag">C#</span>
+          <span class="tag">SQL</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="#main" rel="noopener noreferrer">
+        <div class="project-top">
+          <h3
+                  class="project-title"
+                  data-tr="Kişisel Portfolyo Sitesi"
+                  data-en="Personal Portfolio Website"
+          >
+            Kişisel Portfolyo Sitesi
+          </h3>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </div>
+
+        <p
+                class="project-text"
+                data-tr="HTML, CSS ve JavaScript kullanarak geliştirdiğim kişisel portfolyo web sitesi. Projelerimi, teknik becerilerimi ve çalışmalarımı sade ve minimal bir tasarım ile sergilemek amacıyla oluşturuldu."
+                data-en="A personal portfolio website built with HTML, CSS, and JavaScript. It was created to present my projects, technical skills, and work through a clean and minimal design."
+        >
+          HTML, CSS ve JavaScript kullanarak geliştirdiğim kişisel portfolyo web sitesi.
+          Projelerimi, teknik becerilerimi ve çalışmalarımı sade ve minimal bir tasarım ile sergilemek amacıyla oluşturuldu.
+        </p>
+
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="section two-col-section">
+    <div>
+      <p class="eyebrow" data-tr="Hakkımda" data-en="About">Hakkımda</p>
+    </div>
+
+    <div class="rich-text">
+      <p
+              data-tr="Bilgisayar mühendisliği öğrencisiyim ve özellikle sistem programlama, backend geliştirme ve düşük seviyeli yazılım konularına ilgi duyuyorum. Yeni teknolojiler öğrenmeyi ve farklı alanlarda projeler geliştirerek kendimi geliştirmeyi seviyorum."
+              data-en="I am a computer engineering student, especially interested in systems programming, backend development, and low-level software. I enjoy learning new technologies and improving myself by building projects in different domains."
+      >
+        Bilgisayar mühendisliği öğrencisiyim ve özellikle sistem programlama, backend geliştirme ve düşük seviyeli yazılım konularına ilgi duyuyorum.
+        Yeni teknolojiler öğrenmeyi ve farklı alanlarda projeler geliştirerek kendimi geliştirmeyi seviyorum.
+      </p>
+
+      <p
+              data-tr="Rust, Go ve web teknolojileri ile çeşitli projeler üzerinde çalıştım. İşletim sistemi geliştirme, backend servisleri ve web uygulamaları gibi farklı alanlarda deneyim kazanarak yazılımın farklı katmanlarını anlamaya çalışıyorum."
+              data-en="I have worked on various projects with Rust, Go, and web technologies. By gaining experience in operating system development, backend services, and web applications, I aim to understand different layers of software more deeply."
+      >
+        Rust, Go ve web teknolojileri ile çeşitli projeler üzerinde çalıştım.
+        İşletim sistemi geliştirme, backend servisleri ve web uygulamaları gibi farklı alanlarda deneyim kazanarak yazılımın farklı katmanlarını anlamaya çalışıyorum.
+      </p>
+
+      <p
+              data-tr="Amacım güçlü sistemler geliştirebilen ve yazılımın temel prensiplerine hakim bir mühendis olmak."
+              data-en="My goal is to become an engineer who can build robust systems and has a strong command of the core principles of software."
+      >
+        Amacım güçlü sistemler geliştirebilen ve yazılımın temel prensiplerine hakim bir mühendis olmak.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section two-col-section">
+    <div>
+      <p class="eyebrow" data-tr="İletişim" data-en="Contact">İletişim</p>
+    </div>
+
+    <div>
+      <p
+              class="contact-text"
+              data-tr="Staj, iş birliği, freelance veya proje geliştirme konuşmaları için benimle iletişime geçebilirsiniz."
+              data-en="Feel free to contact me for internships, collaborations, freelance work, or project discussions."
+      >
+        Staj, iş birliği, freelance veya proje geliştirme konuşmaları için benimle
+        iletişime geçebilirsiniz.
+      </p>
+
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:emircanbaz@gmail.com">Mail</a>
+        <a class="btn btn-secondary" href="https://github.com/Emoviro" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/emir-canbaz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p data-tr="© 2026 Emir Canbaz · HTML, CSS ve JavaScript ile geliştirildi" data-en="© 2026 Emir Canbaz · Built with HTML, CSS and JavaScript">
+      © 2026 Emir Canbaz · HTML, CSS ve JavaScript ile geliştirildi
+    </p>
+  </footer>
+</main>
+
+<script>
+  (function () {
+    const root = document.documentElement;
+    const themeToggle = document.getElementById("themeToggle");
+    const langButtons = document.querySelectorAll(".lang-btn");
+    const translatables = document.querySelectorAll("[data-tr][data-en]");
+
+    const savedTheme = localStorage.getItem("theme") || "light";
+    const savedLang = localStorage.getItem("lang") || "tr";
+
+    function applyTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+
+      const themeText = document.querySelector(".theme-toggle-text");
+      if (themeText) {
+        const isTurkish = (localStorage.getItem("lang") || "tr") === "tr";
+        if (theme === "dark") {
+          themeText.textContent = isTurkish ? "Açık" : "Light";
+        } else {
+          themeText.textContent = isTurkish ? "Koyu" : "Dark";
+        }
+      }
+    }
+
+    function applyLanguage(lang) {
+      document.documentElement.lang = lang;
+      localStorage.setItem("lang", lang);
+
+      translatables.forEach((el) => {
+        if (el.hasAttribute("data-" + lang)) {
+          if (el.tagName === "P" && el.classList.contains("section-note")) {
+            el.innerHTML = el.getAttribute("data-" + lang);
+          } else {
+            el.textContent = el.getAttribute("data-" + lang);
+          }
+        }
+      });
+
+      langButtons.forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+      });
+
+      const currentTheme = localStorage.getItem("theme") || "light";
+      applyTheme(currentTheme);
+    }
+
+    themeToggle.addEventListener("click", function () {
+      const currentTheme = root.getAttribute("data-theme") || "light";
+      const nextTheme = currentTheme === "light" ? "dark" : "light";
+      applyTheme(nextTheme);
+    });
+
+    langButtons.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        applyLanguage(btn.dataset.lang);
+      });
+    });
+
+    applyTheme(savedTheme);
+    applyLanguage(savedLang);
+  })();
+</script>
+</body>
+</html>
